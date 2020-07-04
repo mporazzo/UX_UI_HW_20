@@ -13,6 +13,9 @@ header ul {
 header li {
   display: inline-block;
   padding: 0px 5px;
+  font-family: degular, sans-serif;
+font-style: normal;
+font-weight: 200;
 }
 header p {
   display: inline-block;
@@ -20,6 +23,17 @@ header p {
 .heroImg {
   background-color:  #E4E4EF;
   padding: 100px 15px;
+}
+
+.title {
+  padding: 30px;
+}
+
+.subHeader {
+text-align: center;
+font-size: 24px;
+
+
 }
 .content {
   max-width: 700px;
@@ -35,6 +49,9 @@ button {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
+  font-family: degular, sans-serif;
+font-style: normal;
+font-weight: 200;
   font-size: 16px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -43,26 +60,42 @@ button {
 }
 
 h1 {
-  font-family: PT serif;
-  font-size: 36px;
-  font-style: bold;
+font-family: tenez, sans-serif;
+font-weight: 300;
+font-size: 64px;
+text-align: center;
+margin: 10px;
+
 }
+
+h2 {
+  font-family: tenez, sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  
+}
+
 h4 {
-  font-family: PT serif;
+  font-family: tenez, sans-serif;
   font-size: 20px;
-  font-style: bold;
+  font-style: regular;
+  font-weight: 300;
   padding-bottom: 5px;
 }
 
 h3 {
-  font-family: PT serif;
+  font-family: tenez, sans-serif;
   font-size: 18px;
-  font-style: bold;
+  font-style: regular;
+  font-weight: 300;
+  padding-bottom: 5px;
   text-align: center;
 }
 
 p {
-  font-family: sans-serif;
+font-family: degular, sans-serif;
+font-style: normal;
+font-weight: 200;
 }
 
 .skills {
@@ -82,11 +115,13 @@ footer ul {
 footer li {
   display: inline-block;
   padding: 0px 7px;
+  font-family: degular, sans-serif;
+font-style: normal;
+font-weight: 200;
 }
 .heading {
   text-align: center;
-  padding: 20px 15px;
-  font-size: 30px;
+  
 }
 
 .flexContainer {
