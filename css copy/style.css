@@ -2,20 +2,26 @@ body {
   margin: 0;
 }
 header {
-  background-color: #ffffff;
   height: 50px;
+  background-color: transparent;
 }
 header ul {
   float: right;
-  color: #000000;
+  color: #ffffff;
+  padding-right: 20px;
+  padding-top: 5px;
   
 }
 header li {
-  display: inline-block;
-  padding: 0px 5px;
-  font-family: degular, sans-serif;
+display: inline-block;
+padding: 0px 10px;
+
+font-family: degular, sans-serif;
 font-style: normal;
 font-weight: 200;
+color: #ffffff;
+text-decoration: underline;
+
 }
 header p {
   display: inline-block;
@@ -25,11 +31,16 @@ header p {
   padding: 100px 15px;
 }
 
-
+a:visited { 
+  color: inherit;
+  font-style: initial;
+  
+}
 
 .nameHeader {
   position: relative;
   padding-top: 70px;
+  margin: 0;
 }
 .title {
   height: 300px;
